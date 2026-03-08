@@ -1,36 +1,73 @@
 # MJSDS Dashboard
 
-Google Sheets-powered dashboard for MJS Digital Strategy, LLC.
+Google Sheets-powered business tracker for MJS Digital Strategy, LLC.
+
+## Live App
+
+[Open Dashboard](https://melissastock.github.io/mjsds_dashboard/MJSDS_Dashboard.html)
+
+---
 
 ## Quick Start
 
-1. Serve the app over HTTP (not `file://`):
-   ```bash
-   python3 -m http.server 5500
-   ```
-2. Open `http://localhost:5500/MJSDS_Dashboard.html`.
-3. Enter your Spreadsheet ID, OAuth Client ID, and Sheets API Key in the app.
-4. Sign in with Google and allow access.
+### Option A — GitHub Pages (recommended)
+The app is hosted at the link above. Open it in Chrome, enter your credentials, and connect.
 
-## Why HTTP Is Required
+### Option B — Run locally
+If you need to run it from your computer:
 
-Google OAuth for browser apps requires an authorized web origin. Opening the HTML file directly with `file://` will fail origin checks.
+```bash
+cd /path/to/this/folder
+python3 -m http.server 5500
+```
+Then open `http://localhost:5500/MJSDS_Dashboard.html` in Chrome.
 
-Use one of these origins in Google Cloud OAuth settings:
-- `http://localhost:5500`
-- `https://<your-github-username>.github.io`
+> **Why HTTP is required:** Google OAuth requires an authorized web origin.  
+> Opening `file://` directly will fail the Google sign-in check.
 
-## Deployment (GitHub Pages)
+---
 
-1. Push this project to GitHub.
-2. Enable GitHub Pages in repository settings.
-3. Add your GitHub Pages origin to OAuth Authorized JavaScript Origins.
-4. Open your Pages URL and connect.
+## Setup
 
-## Security
+See [Google-Sheets-Setup-Guide-v2.1.md](./Google-Sheets-Setup-Guide-v2.1.md) for full step-by-step instructions.
 
-- Restrict API key to **Google Sheets API** only.
-- Restrict API key HTTP referrers to your localhost and GitHub Pages domain.
-- If a key has been shared publicly, rotate it and update the app.
+**Quick checklist:**
+- [ ] Google Cloud project created
+- [ ] Google Sheets API enabled
+- [ ] API Key created (restricted to Sheets API)
+- [ ] OAuth 2.0 Client ID created
+- [ ] Authorized JavaScript Origins set to:
+  - `http://localhost:5500` (local)
+  - `https://melissastock.github.io` (GitHub Pages)
+- [ ] Spreadsheet created and ID copied
 
-See [Google-Sheets-Setup-Guide-v2.1.md](/Users/melissastock/Documents/TuneFab/MJSDS Dashboard/Google-Sheets-Setup-Guide-v2.1.md) for full setup instructions.
+---
+
+## Files in this repo
+
+| File | Purpose |
+|------|---------|
+| `MJSDS_Dashboard.html` | The app — open this in Chrome |
+| `index.html` | Redirects root URL to the dashboard |
+| `Google-Sheets-Setup-Guide-v2.1.md` | Step-by-step Google Cloud setup |
+| `GITHUB-PAGES-SETUP.md` | GitHub Pages deployment notes |
+| `README.md` | This file |
+
+---
+
+## Security notes
+
+- Restrict your API key to **Google Sheets API** only in Google Cloud Console
+- Restrict API key HTTP referrers to your GitHub Pages domain and localhost
+- If credentials are ever exposed publicly, rotate them immediately in Google Cloud Console
+
+---
+
+## Scaling
+
+As the business grows, add team members via the Team tab in the app.  
+New service lines, KPIs, or sprint structures can be extended — ask Claude.
+
+---
+
+*MJS Digital Strategy, LLC · mjsdigitalstrategy.com*
