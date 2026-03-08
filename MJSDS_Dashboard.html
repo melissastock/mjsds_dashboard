@@ -506,7 +506,7 @@ label.field-label{
   <div id="view-dashboard" class="view">
     <div class="dash-header">
       <div>
-        <h1 class="dash-title">Good morning, <em id="dash-name">Melissa.</em></h1>
+        <h1 class="dash-title">Good morning, <em id="dash-name">there.</em></h1>
         <p class="dash-sub" id="dash-date"></p>
       </div>
       <div class="sprint-badge">
@@ -1403,7 +1403,7 @@ function renderScoreSel(){
 // ─── DASHBOARD ────────────────────────────────────────────
 function renderDashboard() {
   document.getElementById('dash-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-  document.getElementById('dash-name').textContent=config.principal?.split(' ')[0]||'Melissa'+'.';
+  document.getElementById('dash-name').textContent=(config.principal?.split(' ')[0]||'there')+'.';
   const wks=Object.keys(allData).map(k=>+k.replace('week','')).sort((a,b)=>a-b);
   document.getElementById('sprint-week-num').textContent=wks.length||'0';
   let tot={out:0,calls:0,prop:0,cls:0};
