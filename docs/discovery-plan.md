@@ -1,35 +1,35 @@
-# Improvement Plan
+# Legacy Maintenance Plan
 
 ## Purpose
 
-This document captures the active clarification and improvement work for MJSDS Dashboard. It is lighter than an early-stage discovery plan because the dashboard already exists and is in use.
+This document captures the remaining clarification and maintenance work for the deprecated `mjsds_dashboard` repository.
 
 ## Objectives
 
-1. identify the highest-value dashboard improvements
-2. keep setup, deployment, and app behavior documentation aligned
-3. reduce friction for maintenance and future handoff
+1. keep the legacy dashboard understandable
+2. preserve accurate setup and deployment reference material
+3. make the transition to the active dashboard/codebase explicit
 
 ## Current Work Tracks
 
-### Track A — usability and workflow clarity
+### Track A — legacy clarity
 
-- identify small improvements that make the dashboard easier to use
-- clarify which business workflows should remain inside the dashboard versus in supporting spreadsheets or docs
+- keep deprecation status visible
+- make the active replacement codebase easy to find
+- avoid parallel product narratives
 
-### Track B — setup and deployment reliability
+### Track B — setup and deployment reference
 
-- keep Google Sheets and OAuth setup instructions current
-- keep GitHub Pages deployment instructions accurate
-- reduce resume friction for future maintenance sessions
+- preserve working setup notes if legacy access is still needed
+- keep GitHub Pages and Google setup docs understandable as reference material
 
-### Track C — documentation quality
+### Track C — handoff quality
 
-- make the repo easier for a new contributor or stakeholder to understand
-- keep milestone and onboarding docs aligned with the current live state
+- make it easy for a future contributor to understand why this repo still exists
+- keep repo-level docs aligned with the actual maintenance-only posture
 
 ## Exit Signals
 
-- the next improvement slice is clearly prioritized
-- setup and deployment instructions match reality
-- the repo has a clean orientation path for maintenance work
+- the repo clearly communicates its legacy role
+- setup and deployment docs remain understandable
+- future contributors can quickly tell where active work should happen instead

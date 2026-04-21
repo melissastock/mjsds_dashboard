@@ -2,46 +2,43 @@
 
 ## Purpose
 
-MJSDS Dashboard is the active delivery workspace for a Google Sheets-powered business dashboard used to track operating metrics, team information, and business performance for MJS Digital Strategy.
-
-This repository already contains the deployed dashboard asset and setup guides. The purpose of this overview is to give contributors and stakeholders a quick understanding of the current phase, scope, and priorities.
+`mjsds_dashboard` is now a legacy dashboard repository retained for historical reference, setup guidance, and limited maintenance if the older dashboard workflow still needs to be accessed.
 
 ## Current Status
 
-- the dashboard is already published through GitHub Pages
-- the repository contains the live dashboard asset plus setup and onboarding documentation
-- the current focus is maintaining and improving the dashboard as an active business tool
+- the repository is deprecated as an active product home
+- the legacy dashboard assets and setup guides are still preserved here
+- active business dashboard evolution should happen in the current codebase, not in this repo
 
 ## Current Phase
 
-Active dashboard maintenance and iterative enhancement.
+Legacy maintenance and historical reference only.
 
 ## In Scope Now
 
-- dashboard usability and data-flow improvements
-- setup, deployment, and contributor clarity
-- documentation that supports maintenance and handoff
-- bounded enhancements to business tracking workflows
+- preserving dashboard assets and setup documentation
+- clarifying handoff and repo status for future contributors
+- making any required legacy maintenance understandable and low-risk
 
 ## Out Of Scope Now
 
-- unrelated portfolio governance work owned by the top-level Project Manager repo
-- full platform rebuilds without a clear business need
-- moving sensitive credentials or operational secrets into version control
+- major new feature development
+- broad product roadmap work
+- treating this repo as the primary dashboard system of record
 
 ## Start Here
 
 1. `README.md`
-2. `Google-Sheets-Setup-Guide-v2.1.md`
-3. `GITHUB-PAGES-SETUP.md`
+2. `GITHUB-PAGES-SETUP.md`
+3. `Google-Sheets-Setup-Guide-v2.1.md`
 4. `docs/project-charter.md`
 5. `docs/milestone-plan.md`
 
 ## Core Ownership
 
 - Melissa Stock: business owner
-- Codex: delivery and documentation support
+- Codex: documentation and legacy support
 
 ## Working Principle
 
-Keep this repository simple, understandable, and safe to maintain. Changes should make the dashboard easier to run, extend, and hand off.
+Keep this repository understandable as a legacy asset. Changes should reduce confusion, not restart parallel product development here.

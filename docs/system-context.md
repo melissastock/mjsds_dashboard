@@ -2,31 +2,32 @@
 
 ## Purpose
 
-This document gives a concise system-context view of MJSDS Dashboard as a lightweight hosted dashboard application.
+This document gives a concise system-context view of the deprecated `mjsds_dashboard` repository.
 
 ## System Role
 
-The dashboard provides a browser-based interface for viewing and interacting with business tracking information stored in Google Sheets.
+The repository holds a legacy static dashboard experience that used Google OAuth and Google Sheets to display business tracking information.
 
 ## Primary Actors
 
-- business owner or operator using the dashboard
+- business owner or operator viewing the legacy dashboard
 - Google Sheets as the backing data source
-- Google OAuth for authenticated access
+- Google OAuth for browser-based authentication
 - GitHub Pages as the static hosting layer
 
 ## Boundary View
 
-- the repository owns the dashboard asset, setup guides, deployment notes, and project documentation
-- business data lives in Google Sheets, not in this repository
-- credentials and secrets must stay outside version control
+- this repository preserves the legacy dashboard assets and setup documentation
+- business data lives outside the repo in Google Sheets
+- credentials and secrets must remain outside version control
+- active dashboard evolution belongs in the current replacement codebase
 
 ## Logical System Shape
 
 - static HTML dashboard frontend
-- Google OAuth authentication in the browser
-- Google Sheets API as the data provider
-- GitHub Pages as the deployment target
+- browser-based Google authentication flow
+- Google Sheets API data source
+- GitHub Pages hosting
 
 ## Canonical Supporting Docs
 

@@ -2,29 +2,27 @@
 
 ## Product Concept
 
-MJSDS Dashboard is a lightweight browser-based business dashboard that connects to Google Sheets to track business metrics, team information, and operating status in one place.
+`mjsds_dashboard` is a legacy browser-based dashboard connected to Google Sheets for business tracking and operational visibility.
 
 ## Problem Statement
 
-Business tracking information is often scattered across spreadsheets, notes, and ad hoc updates. Without a clear shared dashboard, it becomes harder to monitor performance, coordinate work, and maintain visibility into the business.
-
-This dashboard exists to provide one accessible operational view backed by Google Sheets.
+The original dashboard provided a lightweight way to centralize business metrics and tracking information. The primary need now is not new product definition inside this repo, but preserving enough context for legacy access and clean handoff.
 
 ## Primary Users
 
-- business owner
-- internal operators or collaborators
-- future contributors maintaining the dashboard workflow
+- business owner maintaining historical context
+- contributors who may need to understand or support the legacy dashboard
+- future maintainers tracing how the older dashboard worked
 
 ## Current Phase Goal
 
-The current goal is active maintenance and iterative improvement of the dashboard, not a full product redefinition.
+The goal is legacy clarity and safe maintenance, not active product expansion.
 
 ## Near-Term Outcome
 
-- keep the dashboard stable and understandable
-- make setup and deployment easier to maintain
-- support bounded feature and usability improvements
+- preserve a clear legacy reference repo
+- keep setup and deployment docs understandable
+- reduce ambiguity about where active dashboard work belongs now
 
 ## Canonical Supporting Docs
 

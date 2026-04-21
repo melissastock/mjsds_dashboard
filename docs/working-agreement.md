@@ -2,36 +2,34 @@
 
 ## Purpose
 
-This document defines the operating expectations for the active maintenance and improvement phase of MJSDS Dashboard.
+This document defines the operating expectations for the deprecated `mjsds_dashboard` repository.
 
 ## Principles
 
-- keep the live dashboard understandable and easy to operate
-- document setup and deployment changes clearly
-- prefer small, safe improvements over unnecessary redesigns
-- keep business-facing documentation readable for non-engineering stakeholders
+- preserve clarity about the repo's deprecated status
+- keep legacy setup and deployment docs understandable
+- prefer minimal, low-risk maintenance only when needed
+- do not let this repo silently become the active product home again without an explicit decision
 - never store secrets or unsafe credential material in the repository
 
 ## Cadence
 
-- update repo docs when setup, deployment, or dashboard behavior changes materially
-- capture milestone and scope changes in the docs folder
-- keep the live deployment path easy to resume after pauses in work
+- update docs only when legacy maintenance, ownership, or handoff status changes
+- avoid churn that creates the impression of active roadmap development
 
 ## Decision Ownership
 
-- business priorities and dashboard scope: Melissa Stock
-- delivery support, documentation alignment, and bounded implementation: Codex
+- business decisions about legacy retention: Melissa Stock
+- documentation alignment and bounded maintenance support: Codex
 
 ## Documentation Expectations
 
-- README remains the first-stop orientation document
-- setup and deployment docs should stay aligned with the live app
-- milestone and onboarding docs should reflect the current project phase
-- if a document becomes outdated, update or clearly supersede it
+- README should clearly state that the repo is deprecated
+- setup docs should remain accurate if the legacy dashboard is still reachable
+- any contributor should be able to tell where active development now belongs
 
 ## Immediate Rules
 
-- do not commit API keys, OAuth secrets, or exposed credentials
-- keep GitHub Pages behavior and setup instructions in sync
-- make changes in a way that preserves straightforward local and hosted use
+- do not commit credentials or sensitive operational data
+- keep changes small and easy to audit
+- redirect active improvement energy to the current dashboard/codebase where appropriate
