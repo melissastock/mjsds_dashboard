@@ -18,6 +18,13 @@
 ## Delivery Shape
 
 - Project type: published dashboard repository
+- Project-type escalation triggers: Documented in docs/governance/project-type-downstream-governance-rules.md
+- Downstream governance owner: Melissa Stock
+- Downstream governance profile: Client-Delivery
+- Financial reporting profile: operational
+- KPI reporting cadence: weekly
+- KPI owner: Melissa Stock
+- KPI profile: Client-Delivery
 - Main deliverables: static dashboard app, setup guide, deployment notes, and maintenance updates
 - Required tools or platforms: GitHub Pages, Google Sheets API, browser-based HTML app
 - Sensitive data involved: credentials and configuration practices matter, but the repo itself should stay public-safe
