@@ -17,6 +17,20 @@
 
 ## Delivery Shape
 
+
+
+
+
+
+
+
+- Last persona validation date: 2026-04-21
+- Persona research confidence (`low` / `medium` / `high`): low
+- Persona research evidence path: docs/research/persona-validation-notes.md
+- Persona validation status (`pending` / `validated`): pending
+- Portfolio orientation (`horizontal` / `vertical`): vertical
+- Modular instance type(s): delivery-core
+- Primary user persona: delivery lead
 - Project type: published dashboard repository
 - Project-type escalation triggers: Documented in docs/governance/project-type-downstream-governance-rules.md
 - Downstream governance owner: Melissa Stock
@@ -40,6 +54,8 @@
 
 ## Intake Decisions
 
+
+- Lifecycle state (`not-onboarded` / `governed` / `execution-ready` / `launch-ready` / `scaled`): governed
 - Category: `website`
 - Intake stage: `active`
 - Priority: medium
