@@ -1,0 +1,174 @@
+{
+  "product_id": "mjsds-dashboard",
+  "product_name": "MJSDS Dashboard",
+  "registry_updated_at": "2026-04-23",
+  "skills_framework": {
+    "owner": "Melissa Stock",
+    "version": "1.0.0",
+    "updated_at": "2026-04-23",
+    "skills": [
+      {
+        "id": "product-strategy",
+        "name": "Product Strategy and Commercialization",
+        "level": "expert",
+        "evidence_source": "resume.json"
+      },
+      {
+        "id": "measurement-kpi",
+        "name": "Measurement and KPI Frameworks",
+        "level": "expert",
+        "evidence_source": "resume.json"
+      },
+      {
+        "id": "adtech-ctv",
+        "name": "Ad Tech, CTV, and Platform Systems",
+        "level": "expert",
+        "evidence_source": "resume.json"
+      },
+      {
+        "id": "gtm-enable",
+        "name": "Go-to-Market Design and Enablement",
+        "level": "advanced",
+        "evidence_source": "resume.json"
+      },
+      {
+        "id": "ai-systems-docs",
+        "name": "AI-Enabled Documentation and Systems",
+        "level": "advanced",
+        "evidence_source": "resume.json"
+      }
+    ]
+  },
+  "portfolio_metadata": {
+    "workspace_name": "Project Manager",
+    "generated_status_file": "STATUS.md",
+    "governance": {
+      "canonical_registry_repo": "os-registry",
+      "derived_mirror_file": "Project Manager/config/repos.json",
+      "dual_write_policy": "forbidden",
+      "classification_fields": [
+        "visibility_tier",
+        "data_class",
+        "ip_class",
+        "public_sync_allowed"
+      ]
+    },
+    "settings": {
+      "max_active_projects": 3,
+      "max_planning_projects": 2,
+      "review_cadence_days": 7,
+      "stale_after_days": 10,
+      "required_artifacts": [
+        "prd",
+        "playbook",
+        "roadmap",
+        "ui_design_protocol",
+        "backend_design_protocol",
+        "progress_tracker",
+        "owner",
+        "linked_goal",
+        "success_metric",
+        "latest_status_update"
+      ],
+      "scoring_weights": {
+        "strategic_value": 3,
+        "usefulness_to_goal": 3,
+        "execution_health": 2,
+        "documentation": 2,
+        "confidence": 1,
+        "risk": 2,
+        "effort": 1
+      },
+      "business_scoring_weights": {
+        "revenue_potential": 5,
+        "proof_of_demand": 4,
+        "strategic_fit": 4,
+        "execution_readiness": 3,
+        "brand_leverage": 2,
+        "creative_compounding": 2,
+        "risk_penalty": 3,
+        "effort_penalty": 2
+      },
+      "active_phase_gate": {
+        "min_commercial_readiness_score": 60,
+        "min_owner_conviction": "medium",
+        "require_linked_goal": true,
+        "require_next_review_date": true,
+        "creative_slot_count": 1
+      },
+      "financial_alert_thresholds": {
+        "utilization_warn_percent": 70,
+        "utilization_critical_percent": 85,
+        "variance_warn_usd": 5000,
+        "variance_critical_usd": 15000,
+        "runway_warn_months": 6,
+        "runway_critical_months": 3,
+        "overdue_ar_warn_percent": 20,
+        "overdue_ar_critical_percent": 35
+      },
+      "command_center_admin": {
+        "path_2_whitelabel_enabled": true,
+        "active_brand_identity": "mjsds-default",
+        "allowed_brand_identities": [
+          "mjsds-default",
+          "path2-whitelabel"
+        ],
+        "path2_whitelabel_profile": {
+          "label": "Path 2 White Label",
+          "status": "available"
+        }
+      }
+    }
+  },
+  "resume": {
+    "person": {
+      "name": "Melissa Stock MBA",
+      "location": "Denver, CO",
+      "phone": "720.607.1867",
+      "email": "melissa.stock@gmail.com",
+      "linkedin": "linkedin.com/in/melissastock/"
+    },
+    "headline": "Product Strategy, Measurement, and Ad Tech Leader",
+    "summary": "Product leader building measurement and ad tech systems across creative distribution, ad delivery, and reporting platforms.",
+    "core_strengths": [
+      "Product Strategy and Commercialization",
+      "Measurement and KPI Frameworks",
+      "Ad Tech, CTV, and Platform Systems",
+      "Go-to-Market Design and Enablement",
+      "Cross-Functional Leadership",
+      "Executive Communication",
+      "Research and Insights",
+      "Partner and Vendor Evaluation",
+      "AI-Enabled Documentation and Systems"
+    ],
+    "source_note": "Structured from melissa-stock-generic-one-page-base-2026-03-30.md"
+  },
+  "certifications": {
+    "owner": "Melissa Stock",
+    "updated_at": "2026-04-23",
+    "certifications": [
+      {
+        "name": "AI Accelerator Certificate",
+        "issuer": "Unknown",
+        "status": "active"
+      },
+      {
+        "name": "Data Clean Room Essentials",
+        "issuer": "Unknown",
+        "status": "active"
+      },
+      {
+        "name": "Advanced TV Essentials",
+        "issuer": "Unknown",
+        "status": "active"
+      }
+    ]
+  },
+  "company_profile": {
+    "legal_name": "MJS Digital Strategy LLC",
+    "workspace_name": "Project Manager",
+    "contact_name": "Melissa Stock",
+    "default_jurisdiction": "Colorado",
+    "last_synced_at": "2026-04-23"
+  }
+}

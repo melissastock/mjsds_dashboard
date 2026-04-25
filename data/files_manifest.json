@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-04-23T16:43:23.774566+00:00",
+  "root": "/Users/melissastock/Desktop/Project Manager/GitHub/mjsds_dashboard",
+  "file_count": 29,
+  "files": [
+    {
+      "path": ".DS_Store",
+      "size_bytes": 6148,
+      "modified_at": "2026-04-20T21:09:06.879422+00:00"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 93,
+      "modified_at": "2026-03-08T20:34:05.886140+00:00"
+    },
+    {
+      "path": "GITHUB-PAGES-SETUP.md",
+      "size_bytes": 1187,
+      "modified_at": "2026-03-08T20:34:05.886214+00:00"
+    },
+    {
+      "path": "Google-Sheets-Setup-Guide-v2.1.md",
+      "size_bytes": 3667,
+      "modified_at": "2026-03-08T20:34:05.886301+00:00"
+    },
+    {
+      "path": "MJSDS_Dashboard.html",
+      "size_bytes": 93704,
+      "modified_at": "2026-03-08T20:54:28.635431+00:00"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1525,
+      "modified_at": "2026-04-21T01:06:14.693913+00:00"
+    },
+    {
+      "path": "data/os_registry_snapshot.json",
+      "size_bytes": 5061,
+      "modified_at": "2026-04-23T16:43:23.768005+00:00"
+    },
+    {
+      "path": "deploy.sh",
+      "size_bytes": 1943,
+      "modified_at": "2026-03-08T20:34:05.886657+00:00"
+    },
+    {
+      "path": "docs/architecture-scale-fit.md",
+      "size_bytes": 1775,
+      "modified_at": "2026-04-22T06:07:49.433751+00:00"
+    },
+    {
+      "path": "docs/delivery/backlog.md",
+      "size_bytes": 492,
+      "modified_at": "2026-04-21T02:58:20.275375+00:00"
+    },
+    {
+      "path": "docs/delivery/pr-readiness.md",
+      "size_bytes": 866,
+      "modified_at": "2026-04-21T20:03:24.408482+00:00"
+    },
+    {
+      "path": "docs/delivery/sprint-plan.md",
+      "size_bytes": 584,
+      "modified_at": "2026-04-21T02:58:20.275594+00:00"
+    },
+    {
+      "path": "docs/delivery/test-report.md",
+      "size_bytes": 475,
+      "modified_at": "2026-04-21T02:58:20.275795+00:00"
+    },
+    {
+      "path": "docs/discovery-plan.md",
+      "size_bytes": 1099,
+      "modified_at": "2026-04-21T01:06:14.773803+00:00"
+    },
+    {
+      "path": "docs/engagement-overview.md",
+      "size_bytes": 1291,
+      "modified_at": "2026-04-21T01:06:14.773992+00:00"
+    },
+    {
+      "path": "docs/gtm-hypotheses-and-pilot-plan.md",
+      "size_bytes": 1373,
+      "modified_at": "2026-04-21T02:58:20.302633+00:00"
+    },
+    {
+      "path": "docs/investor-book-section-coverage.md",
+      "size_bytes": 885,
+      "modified_at": "2026-04-21T02:58:20.327492+00:00"
+    },
+    {
+      "path": "docs/investor-book-template.md",
+      "size_bytes": 880,
+      "modified_at": "2026-04-21T02:58:20.327274+00:00"
+    },
+    {
+      "path": "docs/milestone-plan.md",
+      "size_bytes": 803,
+      "modified_at": "2026-04-21T01:05:41.129686+00:00"
+    },
+    {
+      "path": "docs/pilot-outreach-brief.md",
+      "size_bytes": 946,
+      "modified_at": "2026-04-21T02:58:20.302982+00:00"
+    },
+    {
+      "path": "docs/product-brief.md",
+      "size_bytes": 1052,
+      "modified_at": "2026-04-21T01:06:14.774147+00:00"
+    },
+    {
+      "path": "docs/project-charter.md",
+      "size_bytes": 1012,
+      "modified_at": "2026-04-21T01:05:41.129865+00:00"
+    },
+    {
+      "path": "docs/project-intake.md",
+      "size_bytes": 3014,
+      "modified_at": "2026-04-22T07:05:12.974886+00:00"
+    },
+    {
+      "path": "docs/project-onboarding-brief.md",
+      "size_bytes": 1258,
+      "modified_at": "2026-04-21T01:05:41.130583+00:00"
+    },
+    {
+      "path": "docs/research/persona-validation-notes.md",
+      "size_bytes": 422,
+      "modified_at": "2026-04-22T06:58:28.534053+00:00"
+    },
+    {
+      "path": "docs/staffing-plan.md",
+      "size_bytes": 936,
+      "modified_at": "2026-04-21T01:05:41.130745+00:00"
+    },
+    {
+      "path": "docs/system-context.md",
+      "size_bytes": 1054,
+      "modified_at": "2026-04-21T01:06:14.774293+00:00"
+    },
+    {
+      "path": "docs/working-agreement.md",
+      "size_bytes": 1248,
+      "modified_at": "2026-04-21T01:06:14.774439+00:00"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 535,
+      "modified_at": "2026-03-08T20:34:05.886720+00:00"
+    }
+  ]
+}

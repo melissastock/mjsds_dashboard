@@ -17,7 +17,28 @@
 
 ## Delivery Shape
 
+
+
+
+
+
+
+
+- Last persona validation date: 2026-04-21
+- Persona research confidence (`low` / `medium` / `high`): low
+- Persona research evidence path: docs/research/persona-validation-notes.md
+- Persona validation status (`pending` / `validated`): pending
+- Portfolio orientation (`horizontal` / `vertical`): vertical
+- Modular instance type(s): delivery-core
+- Primary user persona: delivery lead
 - Project type: published dashboard repository
+- Project-type escalation triggers: Documented in docs/governance/project-type-downstream-governance-rules.md
+- Downstream governance owner: Melissa Stock
+- Downstream governance profile: Client-Delivery
+- Financial reporting profile: operational
+- KPI reporting cadence: weekly
+- KPI owner: Melissa Stock
+- KPI profile: Client-Delivery
 - Main deliverables: static dashboard app, setup guide, deployment notes, and maintenance updates
 - Required tools or platforms: GitHub Pages, Google Sheets API, browser-based HTML app
 - Sensitive data involved: credentials and configuration practices matter, but the repo itself should stay public-safe
@@ -33,6 +54,8 @@
 
 ## Intake Decisions
 
+
+- Lifecycle state (`not-onboarded` / `governed` / `execution-ready` / `launch-ready` / `scaled`): governed
 - Category: `website`
 - Intake stage: `active`
 - Priority: medium
